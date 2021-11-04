@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #cacaca;
+  padding: 10px;
+  margin: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.item {
+  background-color: #ff0037;
+  color: #fff;
+  font-size: 35px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+}
+
+.items-3 {
+  order: 0;
+}
+
+.items-4 {
+  order: 1;
+}
+
+.items-1 {
+  order: 3;
+}
+
+.items-2 {
+  order: 4;
+}
+.items-5 {
+  order: 2;
+  flex-basis: 700px;
+}
+.items-10 {
+  flex: 1;
+}
